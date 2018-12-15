@@ -5,7 +5,7 @@ using namespace std;
 moon_raw::moon_raw(ifstream& file) {
 	double Tempary;
 	char* temp = new char[100];
-	//ñ÷èòûâàåì íóæíûå íàì âåëè÷èíû â êëàññ moon_raw
+	//ÑÑ‡Ð¸Ñ‚Ñ‹Ð²Ð°ÐµÐ¼ Ð½ÑƒÐ¶Ð½Ñ‹Ðµ Ð½Ð°Ð¼ Ð²ÐµÐ»Ð¸Ñ‡Ð¸Ð½Ñ‹ Ð² ÐºÐ»Ð°ÑÑ moon_raw
 	file >> data >> time >> Tempary >> Tempary >> el >> az;
 	file.getline(temp, 100, '\n');
 }
